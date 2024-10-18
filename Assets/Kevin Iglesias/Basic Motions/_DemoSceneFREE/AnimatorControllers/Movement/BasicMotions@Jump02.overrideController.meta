@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 58d03fe8e8794a7489035dd5b63c092f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.0
+  assetPath: Assets/Kevin Iglesias/Basic Motions/_DemoSceneFREE/AnimatorControllers/Movement/BasicMotions@Jump02.overrideController
+  uploadId: 700313

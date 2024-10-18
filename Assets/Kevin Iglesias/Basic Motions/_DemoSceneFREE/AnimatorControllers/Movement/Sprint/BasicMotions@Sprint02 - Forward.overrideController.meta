@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 892e8238c48765c41be249a7e7012f45
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.0
+  assetPath: Assets/Kevin Iglesias/Basic Motions/_DemoSceneFREE/AnimatorControllers/Movement/Sprint/BasicMotions@Sprint02
+    - Forward.overrideController
+  uploadId: 700313
