@@ -38,20 +38,13 @@ public class PanicCollider : MonoBehaviour
         if (carRigidbody.velocity.magnitude < 0.1f)
             return;
 
-        if (carController.carSpeed > 0)
-        {
-            transform.forward = carRigidbody.velocity.normalized;
-        }
-        else
-        {
-            // FIXME
-            transform.forward = carRigidbody.velocity.normalized;
-        }
+        transform.forward = carRigidbody.velocity.normalized;
     }
 
     private void PanicColliderStretch()
     {
-        colliderScale.z = Math.Abs(carController.carSpeed / (30  * scaleCoeff));
+        colliderScale.z = Math.Abs(carController.carSpeed / (30 * scaleCoef));
+
         if (colliderScale.z >= 1)
             transform.localScale = colliderScale;
         else
@@ -60,12 +53,12 @@ public class PanicCollider : MonoBehaviour
 
     private void PanicColliderMove()
     {
-        if (carController.carSpeed > 0)
-        {
-            transform.localPosition = new Vector3(
-                (panicCollider.size.x * transform.localScale.x) - initialScale.x, 
-                0.8f, 
-                (panicCollider.size.z * transform.localScale.z) - initialScale.z);
-        }
+        if (carController.carSpeed <= 0)
+            return;
+
+        transform.localPosition = new Vector3(
+            (panicCollider.size.x * transform.localScale.x) - initialScale.x,
+            0.8f,
+            (panicCollider.size.z * transform.localScale.z) - initialScale.z);
     }
 }
