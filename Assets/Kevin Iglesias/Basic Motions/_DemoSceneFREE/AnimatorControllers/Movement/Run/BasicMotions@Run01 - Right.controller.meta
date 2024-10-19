@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e149919173a51194985b15e8306ce6a4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 9100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.0
+  assetPath: Assets/Kevin Iglesias/Basic Motions/_DemoSceneFREE/AnimatorControllers/Movement/Run/BasicMotions@Run01
+    - Right.controller
+  uploadId: 700313

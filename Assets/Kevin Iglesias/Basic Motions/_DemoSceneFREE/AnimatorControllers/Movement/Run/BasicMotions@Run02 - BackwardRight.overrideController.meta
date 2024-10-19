@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5570fe7cef6c88a4a89e0e81525e6bd9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.0
+  assetPath: Assets/Kevin Iglesias/Basic Motions/_DemoSceneFREE/AnimatorControllers/Movement/Run/BasicMotions@Run02
+    - BackwardRight.overrideController
+  uploadId: 700313

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: ed2c959be995f944089c39f1af4a60a9
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 22100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 154271
+  packageName: Basic Motions FREE
+  packageVersion: 2.0
+  assetPath: Assets/Kevin Iglesias/Basic Motions/_DemoSceneFREE/AnimatorControllers/Movement/Walk/BasicMotions@Walk02
+    - Forward.overrideController
+  uploadId: 700313
