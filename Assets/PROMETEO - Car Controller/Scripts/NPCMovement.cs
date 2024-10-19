@@ -14,6 +14,7 @@ public class NPCMovement : MonoBehaviour
     } 
     public void Panic(){
         anim.Play("Panic");
+        Debug.Log("Panic on NPC");
     }
     void Update() 
     { 
@@ -26,7 +27,7 @@ public class NPCMovement : MonoBehaviour
         z = Random.Range(-60, 60); 
         Vector3 pos = new Vector3(x, z, 0); 
         agent.SetDestination(pos); 
-        Debug.Log("new pos"); 
+        //Debug.Log("new pos"); 
         new WaitForSeconds(500f); 
     } 
 }
