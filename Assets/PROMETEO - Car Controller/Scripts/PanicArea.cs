@@ -1,8 +1,5 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UIElements;
 
 public class PanicCollider : MonoBehaviour
 {
@@ -60,5 +57,10 @@ public class PanicCollider : MonoBehaviour
             (panicCollider.size.x * transform.localScale.x) - initialScale.x,
             0.8f,
             (panicCollider.size.z * transform.localScale.z) - initialScale.z);
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+
     }
 }
