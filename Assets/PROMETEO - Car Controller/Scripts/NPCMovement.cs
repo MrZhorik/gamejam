@@ -12,7 +12,7 @@ public class NPCMovement : MonoBehaviour
         agent = GetComponent<UnityEngine.AI.NavMeshAgent>(); 
         anim = GetComponent<Animator>();
     } 
-    void onTriggerEnter(Collider other){
+    public void Panic(){
         anim.Play("Panic");
     }
     void Update() 

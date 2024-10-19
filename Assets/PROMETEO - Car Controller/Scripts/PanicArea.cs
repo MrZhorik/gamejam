@@ -61,6 +61,11 @@ public class PanicCollider : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-
+        if (other.tag == "NPC")
+        {
+            NPCMovement npc = other.gameObject.GetComponent<NPCMovement>();
+            npc.Panic();
+            Debug.Log("NPC panic triggered!");
+        }
     }
 }
